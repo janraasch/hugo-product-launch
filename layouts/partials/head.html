@@ -5,11 +5,13 @@
   <title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</title>
 
   {{ with .Site.Params.favicon }}
-  <link rel="shortcut icon" href="{{ . | absURL }}" type="image/png" />
-  {{ end }} {{ with .Site.Params.description }}
-  <meta name="description" content="{{ . }}" />
-  {{ end }} {{ with .Site.Params.meta.keywords }}
-  <meta name="keywords" content="{{ . }}" />
+    <link rel="shortcut icon" href="{{ . | absURL }}" type="image/png" />
+  {{ end }}
+  {{ with .Site.Params.description }}
+    <meta name="description" content="{{ . }}" />
+  {{ end }}
+  {{ with .Site.Params.meta.keywords }}
+    <meta name="keywords" content="{{ . }}" />
   {{ end }}
   <meta name="referrer" content="no-referrer-when-downgrade" />
   <meta name="viewport" content="width=device-width" />

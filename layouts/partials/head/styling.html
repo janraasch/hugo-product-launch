@@ -4,7 +4,4 @@
 {{ if hugo.IsProduction }}
   {{ $css = $css | fingerprint | resources.PostProcess }}
 {{ end }}
-<link
-  href="{{ $css.Permalink }}"
-  rel="stylesheet"
-/>
+<link href="{{ $css.Permalink }}" rel="stylesheet" />
