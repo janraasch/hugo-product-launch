@@ -67,6 +67,8 @@ Please check out the [`config.toml`](https://github.com/janraasch/hugo-product-l
 
 Start with the contents provided in the [`_index.md`](https://github.com/janraasch/hugo-product-launch/blob/master/exampleSite/content/_index.md)-file in the [`exampleSite/content`](https://github.com/janraasch/hugo-product-launch/tree/master/exampleSite/content)-directory. That should give you a good idea about how things work, and then you can go on from there to make the site your own.
 
+This [markdown cheat-sheet](https://www.markdownguide.org/cheat-sheet) might come in handy 🙌🏻.
+
 ### Adding your branding / colors / css: `assets/css/main.css`
 
 Check out the [`main.css`](https://github.com/janraasch/hugo-product-launch/blob/master/assets/css/main.css)-file from the [`assets/css`](https://github.com/janraasch/hugo-product-launch/tree/master/assets/css)-directory to get started and to find more detailed instructions.
