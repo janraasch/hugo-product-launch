@@ -11,12 +11,12 @@ theme = "hugo-product-launch"
 # The "title" of your website
 title = "Builders Of The Future, Inc."
 
-# TODO: Add documentation link
+# Render line-breaks in .md-files as line-breaks in HTML.
+# This is e.g. useful for rendering a multi-line address.
 [markup]
     [markup.goldmark]
         [markup.goldmark.renderer]
             hardWraps = true
-            unsafe = true # For getting the newsletter & contact section on the homepage, see https://gohugo.io/getting-started/configuration-markup#goldmark
 
 [params]
     # A "copyright"-line to be added at the bottom of the page.
