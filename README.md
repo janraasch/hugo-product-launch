@@ -70,12 +70,13 @@ If you do not have a GitHub-account, feel free to hit me up via email (see [janr
 
 ## Sponsor [![Pay me][insert-coins-svg]][paypal-dot-me]
 
-Please consider supporting my work on this theme via [PayPal][paypal-dot-me]. Also, check out [MORE_PERMISSIONS.md][more-permissions-url].
+Support my work via [GitHub Sponsors][github-sponsors] or [PayPal][paypal-dot-me]. Also, check out [MORE_PERMISSIONS.md][more-permissions-url].
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api/?username=janraasch)][github-sponsors].
 
 ## Special Thanks 🎁
 
 - Go to [favicon.io][favicon-io-url], for supplying a quick & easy way to create the [favicon used on the exampleSite][favicon-io-example-site-url].
-
 - Go to [Pexels][pexels-url], for supplying those wonderful free stock photos on the [exampleSite][github-example-site-url].
 
 ## License
@@ -106,5 +107,6 @@ If you would like to use this theme without attribution, permissions beyond this
 [favicon-io-url]: https://favicon.io
 [favicon-io-example-site-url]: https://favicon.io/favicon-generator/?t=BF&ff=Catamaran&fs=110&fc=%23FFFFFF&b=rounded&bc=%2338b2ac
 [pexels-url]: https://www.pexels.com
-[paypal-dot-me]: https://www.paypal.me/janraasch/29,00
+[paypal-dot-me]: https://www.paypal.me/janraasch/49,00
 [insert-coins-svg]: https://img.shields.io/badge/insert-coins-11dde2.svg
+[github-sponsors]: https://github.com/sponsors/janraasch
