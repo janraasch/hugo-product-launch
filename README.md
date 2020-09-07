@@ -6,11 +6,11 @@
 
 ## Demo
 
-For a current & working demo of this theme please check out https://hugo-product-launch.netlify.app/ 🎯.
+For a current & working demo of this theme, please check out https://hugo-product-launch.netlify.app/ 🎯.
 
 ## 🔑 Key Features
 
-- Pretty, quick & simple single-page design 🌻
+- Pretty, quick & straightforward single-page design 🌻
 - Contact form 📇
 - Newsletter sign-up 📫
 - Responsive 📲
@@ -31,7 +31,7 @@ Alternatively, you may also clone the [kickstart-repo](https://github.com/janraa
 
 ### Manual Installation
 
-If you already have a hugo site on your machine, you can simply add this theme via
+If you already have a Hugo site on your machine, you can simply add this theme via
 
 ```
 git submodule add https://github.com/janraasch/hugo-product-launch.git themes/hugo-product-launch
@@ -39,7 +39,7 @@ git submodule add https://github.com/janraasch/hugo-product-launch.git themes/hu
 
 Then, adjust the `config.toml` as [detailed below](#usage).
 
-For more information read the official [setup guide](https://gohugo.io/getting-started/installing) of Hugo.
+For more information, read the official [setup guide](https://gohugo.io/getting-started/installing) of Hugo.
 
 #### Example Content
 
@@ -47,15 +47,15 @@ Simply copy over the contents of the `exampleSite`-directory included in this th
 
 #### NodeJS Dependencies
 
-You need to have [NodeJS](https://nodejs.org) installed. Then, copy the `package.json`- & `package-lock.json`-files from the root of this theme to the root of your site. Run `npm install` & `npm install postcss-cli -g` to set up your [PostCSS-Pipe](https://gohugo.io/hugo-pipes/postcss/).
+You need to have [NodeJS](https://nodejs.org) installed. Then, copy the `package.json`- & `package-lock.json`-files from the root of this theme to your site's root. Run `npm install` & `npm install postcss-cli -g` to set up your [PostCSS-Pipe](https://gohugo.io/hugo-pipes/postcss/).
 
 #### Take over `main.css` & `tailwind.config.js`
 
-Simply copy over the `assets/css/main.css`-file from this repo into your local `assets/css`-folder. Also, copy the `tailwind.config.js`-file from the root of this repository to your site's root. Then, you can add any CSS you like into your own `assets/css/main.css`-file and evenn overwrite the tailwind configuration in `tailwind.config.js`-file. See [tailwindcss > docs > configuration](https://tailwindcss.com/docs/configuration) for more details.
+Simply copy over the `assets/css/main.css`-file from this repo into your local `assets/css`-folder. Also, copy the `tailwind.config.js`-file from the root of this repository to your site's root. You may then add any CSS you like into your own `assets/css/main.css`-file and even overwrite the tailwind configuration in `tailwind.config.js`-file. See [tailwindcss > docs > configuration](https://tailwindcss.com/docs/configuration) for more details.
 
 #### Optional: Take over `postcss.config.js`
 
-To take full control of the [PostCSS](https://postcss.org/)-setup, copy over the `postcss.config.js`-file from this repo into the root directory of your site.
+Take full control of the [PostCSS](https://postcss.org/)-setup by copying the `postcss.config.js`-file from this repo into the root directory of your site.
 
 ## Usage
 
@@ -69,7 +69,7 @@ Start with the contents provided in the [`_index.md`](https://github.com/janraas
 
 ### Adding your branding / colors / css: `assets/css/main.css`
 
-Checkout the [`main.css`](https://github.com/janraasch/hugo-product-launch/blob/master/assets/css/main.css)-file from the [`assets/css`](https://github.com/janraasch/hugo-product-launch/tree/master/assets/css)-directory to get started and to find more detailed instructions.
+Check out the [`main.css`](https://github.com/janraasch/hugo-product-launch/blob/master/assets/css/main.css)-file from the [`assets/css`](https://github.com/janraasch/hugo-product-launch/tree/master/assets/css)-directory to get started and to find more detailed instructions.
 
 ## Issues / Feedback / Contributing
 
