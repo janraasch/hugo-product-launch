@@ -6,7 +6,7 @@
 
 ## Demo
 
-For a current demo of this theme, please check out https://janraasch.github.io/hugo-product-launch/ 🎯.
+For a current demo of this theme, please check out https://hugo-product-launch.netlify.app/ 🎯.
 
 Please note that forms are not submitted on the demo page...
 
