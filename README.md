@@ -59,17 +59,17 @@ To take full control of the [PostCSS](https://postcss.org/)-setup, copy over the
 
 ## Usage
 
-### `config.toml`
+### Base configuration: `config.toml`
 
-🚧 This is still work in progress 🚧
+Please check out the [`config.toml`](https://github.com/janraasch/hugo-product-launch/blob/master/exampleSite/config.toml)-file included in the [exampleSite](https://github.com/janraasch/hugo-product-launch/tree/master/exampleSite) of this theme.
 
-### Content
+### Adding Content: `content/_index.md`
 
-🚧 This is still work in progress 🚧
+Start with the contents provided in the [`_index.md`](https://github.com/janraasch/hugo-product-launch/blob/master/exampleSite/content/_index.md)-file in the [`exampleSite/content`](https://github.com/janraasch/hugo-product-launch/tree/master/exampleSite/content)-directory. That should give you a good idea about how things work, and then you can go on from there to make the site your own.
 
-### Custom CSS
+### Adding your branding / colors / css: `assets/css/main.css`
 
-🚧 This is still work in progress 🚧
+Checkout the [`main.css`](https://github.com/janraasch/hugo-product-launch/blob/master/assets/css/main.css)-file from the [`assets/css`](https://github.com/janraasch/hugo-product-launch/tree/master/assets/css)-directory to get started and to find more detailed instructions.
 
 ## Issues / Feedback / Contributing
 
