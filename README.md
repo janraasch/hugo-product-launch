@@ -12,7 +12,7 @@ Please note that forms are not submitted on the demo page...
 
 ## 🔑 Key Features
 
-* Pretty, quick & simple design single-page design 🌻
+* Pretty, quick & simple single-page design 🌻
 * Contact form 📇
 * Newsletter sign-up 📫
 * Responsive 📲
