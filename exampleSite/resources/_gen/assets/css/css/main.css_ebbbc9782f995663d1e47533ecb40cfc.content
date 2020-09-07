@@ -52,6 +52,12 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
@@ -247,6 +253,7 @@ textarea {
 
 
 h1,
+hr,
 p {
   margin: 0;
 }
@@ -320,6 +327,10 @@ html {
 /*
  * Ensure horizontal rules are visible by default
  */
+
+hr {
+  border-top-width: 1px;
+}
 
 /**
  * Undo the `border-style: none` reset that Normalize applies to images so that
@@ -435,6 +446,13 @@ img {
   text-decoration: underline;
 }
 
+.prose hr {
+  border-color: #e2e8f0;
+  border-top-width: 1px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
 .prose h1 {
   color: #1a202c;
   font-weight: 800;
@@ -457,6 +475,10 @@ img {
 .prose img {
   margin-top: 2em;
   margin-bottom: 2em;
+}
+
+.prose hr + * {
+  margin-top: 0;
 }
 
 .prose > :first-child {
