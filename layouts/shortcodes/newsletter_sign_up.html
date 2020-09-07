@@ -1,5 +1,6 @@
 <form
   class="pb-10"
+  id="{{ with .Get "id" }}{{ . }}{{ else }}newsletter-sign-up-form{{ end }}"
   name="newsletter"
   netlify
   netlify-honeypot="you-like-this-field"
