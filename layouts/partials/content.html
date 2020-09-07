@@ -7,11 +7,9 @@
       <div id="content">
         <div class="flex">
           <div class="pb-16 w-full pt-12">
-            {{ $headless := .Site.GetPage "/homepage" }}
-            {{ $sections := $headless.Resources.ByType "page" }}
-            {{ range $index_val, $elem_val:= $sections }}
-              {{- partial "homepage_content.html" . -}}
-            {{ end }}
+            <div class="homepage-content prose w-full max-w-3xl mx-auto mb-6">
+              {{ .Content }}
+            </div>
           </div>
         </div>
       </div>
