@@ -40,9 +40,13 @@ title = "Builders Of The Future, Inc."
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
     title = "Builders Of The Future, Inc."
 
-    # TODO: Introduce license model
+    # LICENSE: Hugo Product Launch by Jan Raasch is licensed
+    # under Attribution 4.0 International (CC BY 4.0).
+    # See https://github.com/janraasch/hugo-product-launch#license.
     # This theme will, by default, inject a design-by-line at the bottom of the page.
-    # You can turn it off, but we would really appreciate if you don’t :-)
+    # **If** you would like to use this theme without attribution,
+    # permissions beyond this license's scope **are available** at
+    # https://github.com/janraasch/hugo-product-launch/blob/master/MORE_PERMISSIONS.md
     # hidedesignbyline = true
 
     [params.meta]
