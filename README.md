@@ -10,13 +10,24 @@ For a current demo of this theme, please check out https://hugo-product-launch.n
 
 Please note that forms are not submitted on the demo page...
 
+## 🔑 Key Features
+
+* Pretty, quick & simple design single-page design 🌻
+* Contact form 📇
+* Newsletter sign-up 📫
+* Responsive 📲
+* [One-click deploy 🚀to netlify](https://app.netlify.com/start/deploy?repository=https://github.com/janraasch/hugo-product-launch-kickstart)
+* Easily add CMS functionality via [Netfliy CMS](https://www.netlifycms.org) or [Forestry](https://forestry.io) 💼
+* [tailwindcss](https://tailwindcss.com) with [PostCSS](https://postcss.org/) and [PurgeCSS](https://purgecss.com/) => *super tiny CSS file* 🏎
+* No! JavaScript 🥳
+
 ## Installation
 
 ### One-click Deploy / Installation
 
 Deploy [🚀 Hugo Product Launch][github-url] to [netlify](https://www.netlify.com/) by clicking this button:
 
-[![Deploy to netlify](https://www.netlify.com/img/deploy/button.svg)](<(https://app.netlify.com/start/deploy?repository=https://github.com/janraasch/hugo-product-launch-kickstart)>)
+[![Deploy to netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/janraasch/hugo-product-launch-kickstart)
 
 Alternatively, you may also clone the [kickstart-repo](https://github.com/janraasch/hugo-product-launch-kickstart), and skip right to the [usage instructions](#usage)
 
