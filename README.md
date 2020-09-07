@@ -12,14 +12,14 @@ Please note that forms are not submitted on the demo page...
 
 ## 🔑 Key Features
 
-* Pretty, quick & simple single-page design 🌻
-* Contact form 📇
-* Newsletter sign-up 📫
-* Responsive 📲
-* [One-click deploy 🚀 to netlify](https://app.netlify.com/start/deploy?repository=https://github.com/janraasch/hugo-product-launch-kickstart)
-* Easily add CMS functionality via [Netfliy CMS](https://www.netlifycms.org) or [Forestry](https://forestry.io) 💼
-* [tailwindcss](https://tailwindcss.com) with [PostCSS](https://postcss.org/) and [PurgeCSS](https://purgecss.com/) => *super tiny CSS file* 🏎
-* No! JavaScript 🥳
+- Pretty, quick & simple single-page design 🌻
+- Contact form 📇
+- Newsletter sign-up 📫
+- Responsive 📲
+- [One-click deploy 🚀 to netlify](https://app.netlify.com/start/deploy?repository=https://github.com/janraasch/hugo-product-launch-kickstart)
+- Easily add CMS functionality via [Netfliy CMS](https://www.netlifycms.org) or [Forestry](https://forestry.io) 💼
+- [tailwindcss](https://tailwindcss.com) with [PostCSS](https://postcss.org/) and [PurgeCSS](https://purgecss.com/) => _super tiny CSS file_ 🏎
+- No! JavaScript 🥳
 
 ## Installation
 
