@@ -83,6 +83,11 @@ a {
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 
+
+strong {
+  font-weight: bolder;
+}
+
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
@@ -444,6 +449,11 @@ img {
 .prose a {
   color: #1a202c;
   text-decoration: underline;
+}
+
+.prose strong {
+  color: #1a202c;
+  font-weight: 600;
 }
 
 .prose hr {
