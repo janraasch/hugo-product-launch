@@ -83,12 +83,6 @@ Please use [GitHub issues][github-issues-url] and [Pull Requests][github-pulls-u
 
 If you do not have a GitHub-account, feel free to hit me up via email (see [janraasch.com][author-url]).
 
-## Sponsor [![Pay me][insert-coins-svg]][paypal-dot-me]
-
-Support my work via [GitHub Sponsors][github-sponsors] or [PayPal][paypal-dot-me]. Also, check out [MORE_PERMISSIONS.md][more-permissions-url].
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api/?username=janraasch)][github-sponsors].
-
 ## Special Thanks 🎁
 
 - Go to [favicon.io][favicon-io-url], for supplying a quick & easy way to create the [favicon used on the exampleSite][favicon-io-example-site-url].
