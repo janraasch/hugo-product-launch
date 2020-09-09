@@ -1,4 +1,4 @@
-# Hugo Product Launch ![Test](https://github.com/janraasch/hugo-product-launch/workflows/CI/badge.svg?branch=master&event=push)
+# Hugo Product Launch ![Test](https://github.com/janraasch/hugo-product-launch/workflows/CI/badge.svg?branch=master&event=push) [![Pay me][paypal-svg]][paypal-dot-me] [![Sponsor me][github-sponsors-svg]][github-sponsors]
 
 🚀 A [Hugo][hugo-io-url]-theme for young start-ups, product launches, and »coming soon«-websites. Includes ready-to-go contact form & newsletter sign up via [Netlify Forms][netlify-forms-url].
 
@@ -19,9 +19,7 @@ For a current & working demo of this theme, please check out https://hugo-produc
 - [tailwindcss](https://tailwindcss.com) with [PostCSS](https://postcss.org/) and [PurgeCSS](https://purgecss.com/) => _super tiny CSS file_ 🏎
 - No! JavaScript 🥳
 
-## Installation
-
-### One-click Deploy / Installation
+## One-click Deploy / Installation
 
 Deploy [🚀 Hugo Product Launch][github-url] to [netlify](https://www.netlify.com/) by clicking this button:
 
@@ -29,7 +27,13 @@ Deploy [🚀 Hugo Product Launch][github-url] to [netlify](https://www.netlify.c
 
 Alternatively, you may also clone the [kickstart-repo](https://github.com/janraasch/hugo-product-launch-kickstart), and skip right to the [usage instructions](#usage)
 
-### Manual Installation
+## Sponsor 💟
+
+Support my work on this theme via [GitHub Sponsors][github-sponsors] (recurring) or [PayPal][paypal-dot-me] (one-time). Also, check out [MORE_PERMISSIONS.md][more-permissions-url].
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api/?username=janraasch)][github-sponsors]
+
+## Manual Installation
 
 If you already have a Hugo site on your machine, you can simply add this theme via
 
@@ -119,5 +123,6 @@ If you would like to use this theme without attribution, permissions beyond this
 [favicon-io-example-site-url]: https://favicon.io/favicon-generator/?t=BF&ff=Catamaran&fs=110&fc=%23FFFFFF&b=rounded&bc=%2338b2ac
 [pexels-url]: https://www.pexels.com
 [paypal-dot-me]: https://www.paypal.me/janraasch/49,00
-[insert-coins-svg]: https://img.shields.io/badge/insert-coins-11dde2.svg
+[paypal-svg]: https://img.shields.io/badge/insert-coins-11dde2.svg?logo=paypal
+[github-sponsors-svg]: https://img.shields.io/badge/sponsor-me-ee4aaa.svg?logo=github
 [github-sponsors]: https://github.com/sponsors/janraasch
