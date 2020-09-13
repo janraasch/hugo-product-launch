@@ -2,3 +2,5 @@ build
 resources
 public
 hugo_stats.json
+layouts/shortcodes/contact_form.html
+layouts/shortcodes/newsletter_sign_up.html
