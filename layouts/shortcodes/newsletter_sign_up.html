@@ -1,4 +1,5 @@
 <form
+  {{ with .Get "action" }}action="{{ . }}"{{ end }}
   class="pb-10"
   id="{{ with .Get "id" }}{{ . }}{{ else }}newsletter-sign-up-form{{ end }}"
   name="newsletter"

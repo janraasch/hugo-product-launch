@@ -1,4 +1,5 @@
 <form
+  {{ with .Get "action" }}action="{{ . }}"{{ end }}
   id="{{ with .Get "id" }}{{ . }}{{ else }}contact-form{{ end }}"
   class="pb-10"
   name="contact"
