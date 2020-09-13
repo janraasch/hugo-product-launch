@@ -14,7 +14,7 @@
       <input
         id="name"
         name="name"
-        class="appearance-none bg-transparent border-none text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+        class="appearance-none bg-transparent border-none text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none w-full"
         type="text"
         placeholder="{{ with .Get "placeholder_name" }}{{ . }}{{ else }}Name{{ end }}"
         aria-label="Name"
@@ -26,7 +26,7 @@
         id="email"
         name="email"
         type="email"
-        class="appearance-none bg-transparent border-none text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+        class="appearance-none bg-transparent border-none text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none w-full"
         type="text"
         placeholder="{{ with .Get "placeholder_email" }}{{ . }}{{ else }}Email{{ end }}"
         aria-label="Email"
