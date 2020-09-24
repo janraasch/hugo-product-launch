@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/janraasch/hugo-product-launch#readme",
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@fullhuman/postcss-purgecss": "^3.0.0",
     "@tailwindcss/typography": "^0.2.0",
     "autoprefixer": "^9.8.6",
     "postcss-cli": "^7.1.1",
