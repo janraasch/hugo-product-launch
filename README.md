@@ -51,7 +51,7 @@ Simply copy over the contents of the `exampleSite`-directory included in this th
 
 #### NodeJS Dependencies
 
-You need to have [NodeJS](https://nodejs.org) installed. Then, copy the `package.json`- & `package-lock.json`-files from the root of this theme to your site's root. Run `npm install` & `npm install postcss-cli -g` to set up your [PostCSS-Pipe](https://gohugo.io/hugo-pipes/postcss/).
+You need to have [NodeJS](https://nodejs.org) installed. Then, copy the `package.json`- & `package-lock.json`-files from the root of this theme to your site's root. Run `npm install` & `npm install postcss-cli postcss -g` to set up your [PostCSS-Pipe](https://gohugo.io/hugo-pipes/postcss/).
 
 #### Take over `main.css` & `tailwind.config.js`
 
