@@ -15,7 +15,7 @@ For a current & working demo of this theme, please check out https://hugo-produc
 - Newsletter sign-up 📫
 - Responsive 📲
 - [One-click deploy 🚀 to netlify](https://app.netlify.com/start/deploy?repository=https://github.com/janraasch/hugo-product-launch-kickstart)
-- *No!-code* Content Management via [Forestry](https://forestry.io) 💼
+- _No!-code_ Content Management via [Forestry](https://forestry.io) 💼
 - [tailwindcss](https://tailwindcss.com) with [PostCSS](https://postcss.org/) and [PurgeCSS](https://purgecss.com/) => _super tiny CSS file_ 🏎
 - No! JavaScript 🥳
 
@@ -63,7 +63,7 @@ Take full control of the [PostCSS](https://postcss.org/)-setup by copying the `p
 
 ## Usage
 
-If you would like to have a nice & clean *no!-code* User Interface 🧁 for Content Management, simply connect your repository with [Forestry](https://forestry.io). We included the necessary batteries 🔋 (i.e. settings) on the `exampleSite/.forestry`-folder so you are ready to go right out of the gate.
+If you would like to have a nice & clean _no!-code_ User Interface 🧁 for Content Management, simply connect your repository with [Forestry](https://forestry.io). We included the necessary batteries 🔋 (i.e. settings) on the `exampleSite/.forestry`-folder so you are ready to go right out of the gate.
 
 ### Base configuration: `config.toml`
 
