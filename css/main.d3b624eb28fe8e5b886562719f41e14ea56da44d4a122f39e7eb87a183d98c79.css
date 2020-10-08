@@ -355,6 +355,14 @@ textarea {
   resize: vertical;
 }
 
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #a0aec0;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #a0aec0;
+}
+
 input::placeholder,
 textarea::placeholder {
   color: #a0aec0;
@@ -490,7 +498,9 @@ img {
 /* Tailwind's utility classes - generated based on config file */
 
 .appearance-none {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .bg-transparent {
@@ -791,12 +801,14 @@ img {
 @keyframes bounce {
   0%, 100% {
     transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8,0,1,1);
+    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
+            animation-timing-function: cubic-bezier(0.8,0,1,1);
   }
 
   50% {
     transform: none;
-    animation-timing-function: cubic-bezier(0,0,0.2,1);
+    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
+            animation-timing-function: cubic-bezier(0,0,0.2,1);
   }
 }
 
