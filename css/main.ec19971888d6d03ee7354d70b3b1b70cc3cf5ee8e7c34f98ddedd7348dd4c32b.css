@@ -595,6 +595,7 @@ img {
 
 .text-3xl {
   font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .leading-tight {
@@ -648,7 +649,8 @@ img {
 }
 
 .focus\:outline-none:focus {
-  outline: 0;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .p-2 {
@@ -889,10 +891,20 @@ img {
 
   .sm\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .sm\:text-4xl {
     font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:leading-tight {
+    line-height: 1.25;
+  }
+
+  .sm\:leading-relaxed {
+    line-height: 1.625;
   }
 
   .sm\:max-w-2xl {
@@ -912,14 +924,25 @@ img {
 
   .md\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .md\:text-xl {
     font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .md\:text-5xl {
     font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:leading-tight {
+    line-height: 1.25;
+  }
+
+  .md\:leading-relaxed {
+    line-height: 1.625;
   }
 
   .md\:py-4 {
