@@ -24,13 +24,13 @@
   "homepage": "https://github.com/janraasch/hugo-product-launch#readme",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
-    "@tailwindcss/typography": "^0.2.0",
+    "@tailwindcss/typography": "^0.3.1",
     "autoprefixer": "^10.0.2",
     "postcss": "^8.1.10",
     "postcss-cli": "^8.3.0",
     "postcss-import": "^13.0.0",
     "prettier": "^2.2.0",
     "prettier-plugin-go-template": "0.0.10",
-    "tailwindcss": "^1.9.6"
+    "tailwindcss": "^2.0.1"
   }
 }
