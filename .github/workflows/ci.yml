@@ -21,7 +21,7 @@ jobs:
         id: nvm
 
       - name: Install Node.js, NPM and Yarn
-        uses: actions/setup-node@v2.1.2
+        uses: actions/setup-node@v2.1.3
         with:
           node-version: "${{ steps.nvm.outputs.NVMRC }}" # see previous run-statement
 
