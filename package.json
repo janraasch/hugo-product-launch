@@ -31,6 +31,6 @@
     "postcss-import": "^14.0.0",
     "prettier": "^2.2.1",
     "prettier-plugin-go-template": "0.0.10",
-    "tailwindcss": "^2.0.1"
+    "tailwindcss": "^2.0.2"
   }
 }
