@@ -1,5 +1,7 @@
 /* Tailwind base - put variables under: tailwind.config.js */
 
+/* ! tailwindcss v2.0.4 | MIT License | https://tailwindcss.com */
+
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*
@@ -327,15 +329,18 @@ textarea {
 }
 
 input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
   color: #cbd5e0;
 }
 
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  opacity: 1;
   color: #cbd5e0;
 }
 
 input::placeholder,
 textarea::placeholder {
+  opacity: 1;
   color: #cbd5e0;
 }
 
