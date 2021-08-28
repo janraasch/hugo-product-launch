@@ -6,6 +6,7 @@ license = "Creative Commons Attribution 4.0 International Public License (CC BY 
 licenselink = "https://github.com/janraasch/hugo-product-launch/blob/master/LICENSE"
 description = "A Hugo theme for young start-ups, product launches, and »coming soon«-websites. Includes contact form & newsletter sign up via Netlify. Deploy with one click!"
 homepage = "https://github.com/janraasch/hugo-product-launch"
+demosite = "https://hugo-product-launch.netlify.app"
 tags = [
   "coming soon",
   "clean",
