@@ -12,6 +12,9 @@ cp -v themes/hugo-product-launch/package-lock.json .
 echo 'Git: Copy .gitignore'
 cp -v themes/hugo-product-launch/.gitignore .
 
+echo 'NodeJS: Copy .nvmrc'
+cp -v themes/hugo-product-launch/.nvmrc .
+
 echo 'NodeJS: Install dependencies'
 echo 'NodeJS Version:'
 node -v
