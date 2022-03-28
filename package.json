@@ -29,7 +29,7 @@
     "postcss": "^8.4.12",
     "postcss-cli": "^9.1.0",
     "postcss-import": "^14.1.0",
-    "prettier": "^2.2.1",
+    "prettier": "^2.6.1",
     "prettier-plugin-go-template": "0.0.10",
     "tailwindcss": "^2.2.16"
   }
