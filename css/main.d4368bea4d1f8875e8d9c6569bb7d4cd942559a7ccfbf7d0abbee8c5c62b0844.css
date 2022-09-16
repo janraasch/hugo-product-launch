@@ -342,11 +342,6 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   color: #cbd5e0;
 }
 
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  opacity: 1;
-  color: #cbd5e0;
-}
-
 input::placeholder,
 textarea::placeholder {
   opacity: 1;
