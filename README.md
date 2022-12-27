@@ -1,4 +1,4 @@
-# Hugo Product Launch ![Test](https://github.com/janraasch/hugo-product-launch/workflows/CI/badge.svg?branch=master&event=push) [![Pay me][paypal-svg]][paypal-dot-me] [![Sponsor me][github-sponsors-svg]][github-sponsors]
+# Hugo Product Launch ![Test](https://github.com/janraasch/hugo-product-launch/workflows/CI/badge.svg?branch=master&event=push)
 
 🚀 A [Hugo][hugo-io-url]-theme for young start-ups, product launches, and »coming soon«-websites. Includes ready-to-go contact form & newsletter sign up via [Netlify Forms][netlify-forms-url].
 
@@ -26,12 +26,6 @@ Deploy [🚀 Hugo Product Launch][github-url] to [netlify](https://www.netlify.c
 [![Deploy to netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/janraasch/hugo-product-launch-kickstart)
 
 Alternatively, you may also clone the [kickstart-repo](https://github.com/janraasch/hugo-product-launch-kickstart), and skip right to the [usage instructions](#usage)
-
-## Sponsor 💟
-
-Support my work on this theme via [GitHub Sponsors][github-sponsors] (recurring) or [PayPal][paypal-dot-me] (one-time). Also, check out [MORE_PERMISSIONS.md][more-permissions-url].
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api/?username=janraasch)][github-sponsors]
 
 ## Manual Installation
 
@@ -118,7 +112,3 @@ If you would like to use this theme without attribution, permissions beyond this
 [favicon-io-url]: https://favicon.io
 [favicon-io-example-site-url]: https://favicon.io/favicon-generator/?t=BF&ff=Catamaran&fs=110&fc=%23FFFFFF&b=rounded&bc=%2338b2ac
 [pexels-url]: https://www.pexels.com
-[paypal-dot-me]: https://www.paypal.me/janraasch/49,00
-[paypal-svg]: https://img.shields.io/badge/onetime-donation-11dde2.svg?logo=paypal
-[github-sponsors-svg]: https://img.shields.io/badge/recurring-sponsorship-ee4aaa.svg?logo=github
-[github-sponsors]: https://github.com/sponsors/janraasch
