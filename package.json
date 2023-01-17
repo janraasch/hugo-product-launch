@@ -26,7 +26,7 @@
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^10.4.12",
-    "postcss": "^8.4.18",
+    "postcss": "^8.4.21",
     "postcss-cli": "^10.0.0",
     "postcss-import": "^15.0.0",
     "prettier": "^2.2.1",
