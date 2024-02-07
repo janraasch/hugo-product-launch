@@ -33,19 +33,6 @@ jobs:
         with:
           hugo-version: latest
 
-      #
-      # See /scripts/generate_resources.sh
-      # this is taken care of... Hopefully :-)
-      #
-      # - name: Create hugo-product-launch folder in resources
-      #   run: mkdir ./exampleSite/resources/_gen/assets/css/hugo-product-launch
-
-      # # Otherwise I keep getting the error:
-      # # Error: Error building site: POSTCSS: failed to transform "css/main.css" (text/css): resource "css/hugo-product-launch/css/main.css_674d3a8c056e8697f10ad004211806b8" not found in file cache.
-      # # see e.g. https://github.com/janraasch/hugo-product-launch/runs/1026595219?check_suite_focus=true#step:8:4
-      # - name: Copy cached resources to hugo-product-launch folder
-      #   run: cp -R ./exampleSite/resources/_gen/assets/css/css ./exampleSite/resources/_gen/assets/css/hugo-product-launch/css
-
       - name: Build local ./exampleSite
         run: hugo --minify --destination ../public --source ./exampleSite --themesDir ../.. --baseURL https://janraasch.github.io/hugo-product-launch/
 
