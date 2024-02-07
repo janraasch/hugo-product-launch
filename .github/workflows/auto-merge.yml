@@ -8,8 +8,8 @@ on:
       - master
 
 permissions:
-  issues: write
-  pull-requests: write
+  contents: read
+  pull-requests: read
 
 jobs:
   auto-merge:
@@ -24,8 +24,6 @@ jobs:
         with:
           app_id: ${{ secrets.BIG_MERGER_APP_ID }}
           private_key: ${{ secrets.BIG_MERGER_CLIENT_SECRET }}
-          repositories: >-
-            ["janraasch/hugo-product-launch"]
 
       - name: Dependabot metadata
         id: dependabot-metadata
