@@ -23,9 +23,9 @@ jobs:
         uses: tibdex/github-app-token@v2
         with:
           app_id: ${{ secrets.BIG_MERGER_APP_ID }}
-          private_key: ${{ secrets.BIG_MERGER_CLIENT_SECRET }}
-        env: # see https://github.com/tibdex/github-app-token/issues/54
-          OPENSSL_CONF: /dev/null
+          private_key: ${{ secrets.BIG_MERGER_PRIVATE_KEY }}
+        # env: # see https://github.com/tibdex/github-app-token/issues/54
+        #   OPENSSL_CONF: /dev/null
 
       - name: Dependabot metadata
         id: dependabot-metadata
