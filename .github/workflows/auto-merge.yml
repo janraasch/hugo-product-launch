@@ -25,7 +25,7 @@ jobs:
           app_id: ${{ secrets.BIG_MERGER_APP_ID }}
           private_key: ${{ secrets.BIG_MERGER_CLIENT_SECRET }}
           repositories: >-
-            ["${{ github.repository }}"]
+            ["janraasch/hugo-product-launch"]
 
       - name: Dependabot metadata
         id: dependabot-metadata
