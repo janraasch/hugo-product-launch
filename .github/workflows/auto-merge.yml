@@ -5,7 +5,7 @@ name: Dependabot auto-merge
 on:
   pull_request:
     branches:
-    - master
+      - master
 
 permissions:
   issues: write
@@ -29,7 +29,7 @@ jobs:
         id: dependabot-metadata
         uses: dependabot/fetch-metadata@v1
         with:
-          github-token: '${{ secrets.GITHUB_TOKEN }}'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
 
       - name: Authenticate cli
         run: echo "${{ steps.create_token.outputs.token }}" | gh auth login --with-token
