@@ -25,7 +25,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^6.0.0",
     "@tailwindcss/typography": "^0.4.1",
-    "autoprefixer": "^10.4.19",
+    "autoprefixer": "^10.4.20",
     "postcss": "^8.4.40",
     "postcss-cli": "^11.0.0",
     "postcss-import": "^16.1.0",
