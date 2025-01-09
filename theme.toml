@@ -43,7 +43,7 @@ features = [
   "netlify",
   "netlify forms"
 ]
-min_version = "0.69.0"
+min_version = "v0.115.1"
 
 [author]
   name = "Jan Raasch"
