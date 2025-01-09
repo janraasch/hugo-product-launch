@@ -2,6 +2,6 @@
 {{ $css := resources.Get "css/main.css" }}
 {{ $css = $css | resources.PostCSS }}
 {{ if hugo.IsProduction }}
-  {{ $css = $css | fingerprint | resources.PostProcess }}
+  {{ $css = $css | fingerprint | css.PostProcess }}
 {{ end }}
 <link href="{{ $css.Permalink }}" rel="stylesheet" />
