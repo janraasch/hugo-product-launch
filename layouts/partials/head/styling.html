@@ -1,6 +1,6 @@
 <!-- See https://gohugo.io/hugo-pipes/postprocess/#css-purging-with-postcss -->
 {{ $css := resources.Get "css/main.css" }}
-{{ $css = $css | resources.PostCSS }}
+{{ $css = $css | css.PostCSS }}
 {{ if hugo.IsProduction }}
   {{ $css = $css | fingerprint | resources.PostProcess }}
 {{ end }}
