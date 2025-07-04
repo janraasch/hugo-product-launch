@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+/* Tell Tailwind where to find Hugo template files */
+@source "../../layouts";
+@source "../../content";
+@source "../../hugo_stats.json";
+
 @theme {
   /* Custom color palette from v2 config */
   --color-gray-100: #f7fafc;
