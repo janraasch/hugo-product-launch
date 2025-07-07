@@ -1,6 +1,6 @@
 /* Tailwind CSS v4 - single import replaces the old base/components/utilities imports */
 @import "tailwindcss";
-
+@plugin "@tailwindcss/typography";
 /* Theme configuration converted from tailwind.config.js to CSS variables */
 @theme {
   /* Custom color palette from the original config */
