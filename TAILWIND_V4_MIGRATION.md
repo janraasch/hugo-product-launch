@@ -5,12 +5,15 @@ This document outlines the changes made during the migration from Tailwind CSS v
 ## Major Changes
 
 ### 1. Package Dependencies
+
 - Updated `tailwindcss` from `^2.2.16` to `^4.1.11`
 - Updated `@tailwindcss/typography` from `^0.4.1` to `^0.5.15`
 - Added `@tailwindcss/postcss` as the new PostCSS plugin
 
 ### 2. CSS Import Syntax
+
 **Before (v2):**
+
 ```css
 @import "node_modules/tailwindcss/base";
 @import "node_modules/tailwindcss/components";
@@ -18,14 +21,17 @@ This document outlines the changes made during the migration from Tailwind CSS v
 ```
 
 **After (v4):**
+
 ```css
 @import "tailwindcss";
 ```
 
 ### 3. Configuration Method
+
 **Before (v2):** Configuration was done in `tailwind.config.js`
 
 **After (v4):** Configuration is now done directly in CSS using `@theme`:
+
 ```css
 @theme {
   --color-gray-100: #f7fafc;
@@ -35,14 +41,17 @@ This document outlines the changes made during the migration from Tailwind CSS v
 ```
 
 ### 4. PostCSS Plugin
+
 **Before (v2):**
+
 ```js
-require("tailwindcss")
+require("tailwindcss");
 ```
 
 **After (v4):**
+
 ```js
-require("@tailwindcss/postcss")
+require("@tailwindcss/postcss");
 ```
 
 ## Benefits of v4
