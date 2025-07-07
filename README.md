@@ -47,9 +47,9 @@ Simply copy over the contents of the `exampleSite`-directory included in this th
 
 You need to have [NodeJS](https://nodejs.org) installed. Then, copy the `package.json`- & `package-lock.json`-files from the root of this theme to your site's root. Run `npm install` & `npm install postcss-cli postcss -g` to set up your [PostCSS-Pipe](https://gohugo.io/hugo-pipes/postcss/).
 
-#### Take over `main.css` & `tailwind.config.js`
+#### Take over `main.css`
 
-Simply copy over the `assets/css/main.css`-file from this repo into your local `assets/css`-folder. Also, copy the `tailwind.config.js`-file from the root of this repository to your site's root. You may then add any CSS you like into your own `assets/css/main.css`-file and even overwrite the tailwind configuration in `tailwind.config.js`-file. See [tailwindcss > docs > configuration](https://tailwindcss.com/docs/configuration) for more details.
+Simply copy over the `assets/css/main.css`-file from this repo into your local `assets/css`-folder. You may then add any CSS you like into your own `assets/css/main.css`-file. See [tailwindcss > docs > configuration](https://tailwindcss.com/docs/configuration) for more details.
 
 #### Optional: Take over `postcss.config.js`
 
