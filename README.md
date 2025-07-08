@@ -16,7 +16,7 @@ For a current & working demo of this theme, please check out https://hugo-produc
 - Responsive 📲
 - [One-click deploy 🚀 to netlify](https://app.netlify.com/start/deploy?repository=https://github.com/janraasch/hugo-product-launch-kickstart)
 - _No!-code_ Content Management via [Forestry](https://forestry.io) 💼
-- [tailwindcss](https://tailwindcss.com) with [PostCSS](https://postcss.org/) and [PurgeCSS](https://purgecss.com/) => _super tiny CSS file_ 🏎
+- [tailwindcss](https://tailwindcss.com) for speedy styling 🏎
 - No! JavaScript 🥳
 
 ## One-click Deploy / Installation
