@@ -9,12 +9,15 @@ homepage = "https://github.com/janraasch/hugo-product-launch"
 demosite = "https://hugo-product-launch.netlify.app"
 tags = [
   "bootstrap",
+  "business",
   "company",
   "contact",
+  "ecommerce",
+  "hero",
+  "light",
   "landing",
   "minimal",
-  "netlify",
-  "starter",
+  "newsletter",
   "tailwind",
 ]
 features = [
