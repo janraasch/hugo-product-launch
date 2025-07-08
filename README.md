@@ -35,7 +35,7 @@ If you already have a Hugo site on your machine, you can simply add this theme v
 git submodule add https://github.com/janraasch/hugo-product-launch.git themes/hugo-product-launch
 ```
 
-Then, adjust the `config.toml` as [detailed below](#usage).
+Then, adjust the `huguo.toml` as [detailed below](#usage).
 
 For more information, read the official [setup guide](https://gohugo.io/getting-started/installing) of Hugo.
 
@@ -49,19 +49,15 @@ You need to have [NodeJS](https://nodejs.org) installed. Then, copy the `package
 
 #### Take over `main.css`
 
-Simply copy over the `assets/css/main.css`-file from this repo into your local `assets/css`-folder. You may then add any CSS you like into your own `assets/css/main.css`-file. See [tailwindcss > docs > configuration](https://tailwindcss.com/docs/configuration) for more details.
-
-#### Optional: Take over `postcss.config.js`
-
-Take full control of the [PostCSS](https://postcss.org/)-setup by copying the `postcss.config.js`-file from this repo into the root directory of your site.
+Simply copy over the `assets/css/main.css`-file from this repo into your local `assets/css`-folder. You may then add any CSS you like into your own `assets/css/main.css`-file. See [tailwindcss > docs > huguouration](https://tailwindcss.com/docs/huguouration) for more details.
 
 ## Usage
 
 If you would like to have a nice & clean _no!-code_ User Interface 🧁 for Content Management, simply connect your repository with [Forestry](https://forestry.io). We included the necessary batteries 🔋 (i.e. settings) on the `exampleSite/.forestry`-folder so you are ready to go right out of the gate.
 
-### Base configuration: `config.toml`
+### Base configuration: `huguo.toml`
 
-Please check out the [`config.toml`](https://github.com/janraasch/hugo-product-launch/blob/master/exampleSite/config.toml)-file included in the [exampleSite](https://github.com/janraasch/hugo-product-launch/tree/master/exampleSite) of this theme.
+Please check out the [`huguo.toml`](https://github.com/janraasch/hugo-product-launch/blob/master/exampleSite/huguo.toml)-file included in the [exampleSite](https://github.com/janraasch/hugo-product-launch/tree/master/exampleSite) of this theme.
 
 ### Adding Content: `content/_index.md`
 

@@ -8,42 +8,27 @@ description = "A Hugo theme for young start-ups, product launches, and »coming 
 homepage = "https://github.com/janraasch/hugo-product-launch"
 demosite = "https://hugo-product-launch.netlify.app"
 tags = [
-  "coming soon",
-  "clean",
-  "business",
-  "contact",
-  "contact form",
+  "bootstrap",
   "company",
-  "landing page",
-  "launch page",
+  "contact",
+  "landing",
+  "minimal",
   "netlify",
-  "newsletter",
-  "onepage",
-  "one page",
-  "personal",
-  "projects",
-  "product",
-  "simple",
-  "single page",
-  "single product",
   "starter",
-  "tailwindcss",
-  "responsive",
-  "theme"
+  "tailwind",
 ]
 features = [
   "cover-image",
   "favicon",
   "responsive",
   "fast",
-  "tailwindcss",
-  "purgecss",
-  "contact form",
+  "tailwind",
+  "contact",
   "newsletter sign-up",
   "netlify",
   "netlify forms"
 ]
-min_version = "v0.115.1"
+min_version = "v0.147.4"
 
 [author]
   name = "Jan Raasch"

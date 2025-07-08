@@ -14,7 +14,7 @@ sections:
     match: "**/*"
     exclude: _index.md
   - type: document
-    path: config.toml
+    path: hugo.toml
     label: Configuration
 upload_dir: static
 public_path: ""
@@ -24,10 +24,10 @@ file_template: ":filename:"
 build:
   preview_env:
     - HUGO_ENV=staging
-    - HUGO_VERSION=0.71.1
+    - HUGO_VERSION=0.147.4
   preview_output_directory: public
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: hugo server -D -E -F --renderToDisk -d public
-version: 0.71.1
+version: 0.147.4

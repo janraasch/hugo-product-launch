@@ -115,4 +115,4 @@ fields:
           target="_blank">https://github.com/janraasch/hugo-product-launch/blob/master/MORE_PERMISSIONS.md</a>.'
         default: false
 pages:
-  - config.toml
+  - hugo.toml

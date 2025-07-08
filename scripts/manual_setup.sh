@@ -21,13 +21,6 @@ node -v
 echo 'NPM Version:'
 npm -v
 npm install
-npm install postcss-cli postcss -g
 
 echo 'Custom CSS: Copy main.css into local "assets/css"-directory'
 cp -v -r themes/hugo-product-launch/assets ./
-
-#
-# Optional - For taking over postcss completely
-#
-# echo 'Custom CSS: Copy postcss.config.js into root'
-# cp -v themes/hugo-product-launch/postcss.config.js .

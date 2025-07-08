@@ -1,7 +1,18 @@
-<!-- See https://gohugo.io/hugo-pipes/postprocess/#css-purging-with-postcss -->
-{{ $css := resources.Get "css/main.css" }}
-{{ $css = $css | css.PostCSS }}
-{{ if hugo.IsProduction }}
-  {{ $css = $css | fingerprint | resources.PostProcess }}
+<!-- See https://gohugo.io/functions/css/tailwindcss -->
+{{ with resources.Get "css/main.css" }}
+  {{ $opts := dict "minify" (not hugo.IsDevelopment) }}
+  {{ with . | css.TailwindCSS $opts }}
+    {{ if hugo.IsDevelopment }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}" />
+    {{ else }}
+      {{ with . | fingerprint }}
+        <link
+          rel="stylesheet"
+          href="{{ .RelPermalink }}"
+          integrity="{{ .Data.Integrity }}"
+          crossorigin="anonymous"
+        />
+      {{ end }}
+    {{ end }}
+  {{ end }}
 {{ end }}
-<link href="{{ $css.Permalink }}" rel="stylesheet" />
