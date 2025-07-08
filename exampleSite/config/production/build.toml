@@ -1,3 +1,0 @@
-# See https://gohugo.io/hugo-pipes/postprocess/#css-purging-with-postcss
-[build.buildStats]
-    enable = true
