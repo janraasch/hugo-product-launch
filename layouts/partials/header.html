@@ -4,24 +4,24 @@
       class="w-full max-w-screen-xl relative mx-auto px-6 pt-16 pb-40 md:pb-24"
     >
       <div class="text-left md:text-center sm:max-w-2xl max-w-3xl mx-auto">
-        {{ with .Params.header_brand }}>
+        {{ with .Params.header_brand }}
           {{- partial "header/brand.html" . -}}
-        {{ end }}>
-        {{ with .Params.header_tagline_paragraph }}>
+        {{ end }}
+        {{ with .Params.header_tagline_paragraph }}
           {{- partial "header/tagline_paragraph.html" . -}}
-        {{ end }}>
+        {{ end }}
         <div class="flex mt-6 justify-start md:justify-center">
-          {{ with .Params.header_button_cta }}>
+          {{ with .Params.header_button_cta }}
             {{- partial "header/button_cta.html" . -}}
-          {{ end }}>
-          {{ with .Params.header_button_more }}>
+          {{ end }}
+          {{ with .Params.header_button_more }}
             {{- partial "header/button_more.html" . -}}
-          {{ end }}>
+          {{ end }}
         </div>
       </div>
-      {{ with .Params.teaser_image }}>
+      {{ with .Params.teaser_image }}
         {{- partial "header/teaser_image.html" . -}}
-      {{ end }}>
+      {{ end }}
     </div>
   </div>
 </header>
