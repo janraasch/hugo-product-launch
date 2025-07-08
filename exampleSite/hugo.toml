@@ -53,6 +53,8 @@ title = "Builders Of The Future, Inc."
     [params.meta]
         keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
 
+# Tailwind CSS build configuration for Hugo.
+# See https://gohugo.io/functions/css/tailwindcss.
 [build]
   [build.buildStats]
     enable = true
