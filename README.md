@@ -1,4 +1,4 @@
-# Hugo Product Launch ![Test](https://github.com/janraasch/hugo-product-launch/workflows/CI/badge.svg?branch=master&event=push)
+# Hugo Product Launch [![CI](https://github.com/janraasch/hugo-product-launch/actions/workflows/ci.yml/badge.svg)](https://github.com/janraasch/hugo-product-launch/actions/workflows/ci.yml)
 
 🚀 A [Hugo][hugo-io-url]-theme for young start-ups, product launches, and »coming soon«-websites. Includes ready-to-go contact form & newsletter sign up via [Netlify Forms][netlify-forms-url].
 
