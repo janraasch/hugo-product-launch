@@ -1,10 +1,10 @@
 <footer id="footer" class="w-full max-w-screen-xl mx-auto mb-6">
   <div class="px-6">
     <div class="w-full sm:max-w-2xl max-w-3xl mx-auto">
-      {{ with .Site.Params.copyright }}
+      {{ with .Site.Params.copyright }}>
         <div class="prose copyright">{{ . | markdownify }}</div>
-      {{ end }}
-      {{ if ne .Site.Params.hidedesignbyline true }}
+      {{ end }}>
+      {{ if ne .Site.Params.hidedesignbyline true }}>
         <!--
         LICENSE: Hugo Product Launch by Jan Raasch is licensed
         under Attribution 4.0 International (CC BY 4.0).
@@ -12,13 +12,13 @@
         If you would like to use this theme without attribution,
         permissions beyond this license's scope are available at
         https://github.com/janraasch/hugo-product-launch/blob/master/MORE_PERMISSIONS.md
-      -->
+      --
         <div class="prose">
           <a href="https://github.com/janraasch/hugo-product-launch/">Design</a>
           template by
           <a href="https://www.janraasch.com" title="Jan Raasch">Jan Raasch</a>
         </div>
-      {{ end }}
+      {{ end }}>
     </div>
   </div>
 </footer>
