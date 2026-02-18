@@ -27,6 +27,6 @@
     "@tailwindcss/cli": "^4.1.18",
     "prettier": "^3.8.1",
     "prettier-plugin-go-template": "0.0.15",
-    "tailwindcss": "^4.1.18"
+    "tailwindcss": "^4.2.0"
   }
 }
