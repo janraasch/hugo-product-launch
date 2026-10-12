@@ -26,6 +26,8 @@ jobs:
           node-version: "${{ steps.nvm.outputs.NVMRC }}" # see previous run-statement
 
       - run: npm install # installs postcss-cli, etc.
+      - name: Add local npm binaries to PATH
+        run: echo "$GITHUB_WORKSPACE/node_modules/.bin" >> "$GITHUB_PATH"
       - run: npm test
 
       - name: Setup Hugo
